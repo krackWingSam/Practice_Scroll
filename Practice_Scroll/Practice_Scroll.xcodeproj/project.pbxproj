@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		89547EEE2223DBB800143E1B /* CustomPageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89547EED2223DBB800143E1B /* CustomPageScrollViewController.swift */; };
+		8955B63E2224EF5E002310D1 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955B63D2224EF5E002310D1 /* ContentViewController.swift */; };
+		8955B6402224F04D002310D1 /* SecondContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955B63F2224F04D002310D1 /* SecondContentViewController.swift */; };
+		8955B6422224F16F002310D1 /* SHTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955B6412224F16F002310D1 /* SHTestViewController.swift */; };
 		89603FEF22238C0100E7BB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89603FEE22238C0100E7BB3A /* AppDelegate.swift */; };
 		89603FF422238C0100E7BB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89603FF222238C0100E7BB3A /* Main.storyboard */; };
 		89603FF622238C0100E7BB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89603FF522238C0100E7BB3A /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		89547EED2223DBB800143E1B /* CustomPageScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageScrollViewController.swift; sourceTree = "<group>"; };
+		8955B63D2224EF5E002310D1 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		8955B63F2224F04D002310D1 /* SecondContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentViewController.swift; sourceTree = "<group>"; };
+		8955B6412224F16F002310D1 /* SHTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHTestViewController.swift; sourceTree = "<group>"; };
 		89603FEB22238C0100E7BB3A /* Practice_Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_Scroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89603FEE22238C0100E7BB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89603FF322238C0100E7BB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 			children = (
 				8960400122238CE500E7BB3A /* SmallScrollTestViewController.swift */,
 				89547EED2223DBB800143E1B /* CustomPageScrollViewController.swift */,
+				8955B6412224F16F002310D1 /* SHTestViewController.swift */,
+				8955B63D2224EF5E002310D1 /* ContentViewController.swift */,
+				8955B63F2224F04D002310D1 /* SecondContentViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -146,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8955B63E2224EF5E002310D1 /* ContentViewController.swift in Sources */,
+				8955B6402224F04D002310D1 /* SecondContentViewController.swift in Sources */,
 				89603FEF22238C0100E7BB3A /* AppDelegate.swift in Sources */,
+				8955B6422224F16F002310D1 /* SHTestViewController.swift in Sources */,
 				89547EEE2223DBB800143E1B /* CustomPageScrollViewController.swift in Sources */,
 				8960400222238CE500E7BB3A /* SmallScrollTestViewController.swift in Sources */,
 			);
