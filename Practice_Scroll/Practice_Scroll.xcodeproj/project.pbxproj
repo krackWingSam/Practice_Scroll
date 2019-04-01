@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8926CB30223644A100168538 /* TETestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926CB2F223644A100168538 /* TETestViewController.swift */; };
+		8926CB35223647C300168538 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8926CB31223647C200168538 /* 2.png */; };
+		8926CB36223647C300168538 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8926CB32223647C200168538 /* 4.png */; };
+		8926CB37223647C300168538 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8926CB33223647C200168538 /* 3.png */; };
+		8926CB38223647C300168538 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8926CB34223647C300168538 /* 1.png */; };
+		8946621B2251B01600DCF0B8 /* PutsTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946621A2251B01600DCF0B8 /* PutsTestViewController.swift */; };
+		8946621D2251D43800DCF0B8 /* PutsTestInnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946621C2251D43800DCF0B8 /* PutsTestInnerViewController.swift */; };
+		8946621F2251E45E00DCF0B8 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946621E2251E45E00DCF0B8 /* EmptyViewController.swift */; };
+		894662212251EE0C00DCF0B8 /* VC1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894662202251EE0C00DCF0B8 /* VC1ViewController.swift */; };
+		894662232251EE1800DCF0B8 /* VC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894662222251EE1800DCF0B8 /* VC2ViewController.swift */; };
 		89547EEE2223DBB800143E1B /* CustomPageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89547EED2223DBB800143E1B /* CustomPageScrollViewController.swift */; };
 		8955B63E2224EF5E002310D1 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955B63D2224EF5E002310D1 /* ContentViewController.swift */; };
 		8955B6402224F04D002310D1 /* SecondContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955B63F2224F04D002310D1 /* SecondContentViewController.swift */; };
@@ -16,9 +26,20 @@
 		89603FF622238C0100E7BB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89603FF522238C0100E7BB3A /* Assets.xcassets */; };
 		89603FF922238C0100E7BB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89603FF722238C0100E7BB3A /* LaunchScreen.storyboard */; };
 		8960400222238CE500E7BB3A /* SmallScrollTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960400122238CE500E7BB3A /* SmallScrollTestViewController.swift */; };
+		89DD2E72223735250052A4BA /* ScrollInScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD2E71223735250052A4BA /* ScrollInScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8926CB2F223644A100168538 /* TETestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TETestViewController.swift; sourceTree = "<group>"; };
+		8926CB31223647C200168538 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		8926CB32223647C200168538 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		8926CB33223647C200168538 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		8926CB34223647C300168538 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8946621A2251B01600DCF0B8 /* PutsTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutsTestViewController.swift; sourceTree = "<group>"; };
+		8946621C2251D43800DCF0B8 /* PutsTestInnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutsTestInnerViewController.swift; sourceTree = "<group>"; };
+		8946621E2251E45E00DCF0B8 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		894662202251EE0C00DCF0B8 /* VC1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1ViewController.swift; sourceTree = "<group>"; };
+		894662222251EE1800DCF0B8 /* VC2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2ViewController.swift; sourceTree = "<group>"; };
 		89547EED2223DBB800143E1B /* CustomPageScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageScrollViewController.swift; sourceTree = "<group>"; };
 		8955B63D2224EF5E002310D1 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		8955B63F2224F04D002310D1 /* SecondContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +51,7 @@
 		89603FF822238C0100E7BB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89603FFA22238C0100E7BB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8960400122238CE500E7BB3A /* SmallScrollTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallScrollTestViewController.swift; sourceTree = "<group>"; };
+		89DD2E71223735250052A4BA /* ScrollInScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollInScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		894662242251FCD700DCF0B8 /* puts */ = {
+			isa = PBXGroup;
+			children = (
+				8946621A2251B01600DCF0B8 /* PutsTestViewController.swift */,
+				8946621C2251D43800DCF0B8 /* PutsTestInnerViewController.swift */,
+				894662202251EE0C00DCF0B8 /* VC1ViewController.swift */,
+				894662222251EE1800DCF0B8 /* VC2ViewController.swift */,
+			);
+			path = puts;
+			sourceTree = "<group>";
+		};
 		89603FE222238C0100E7BB3A = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +101,10 @@
 				89603FF522238C0100E7BB3A /* Assets.xcassets */,
 				89603FF722238C0100E7BB3A /* LaunchScreen.storyboard */,
 				89603FFA22238C0100E7BB3A /* Info.plist */,
+				8926CB34223647C300168538 /* 1.png */,
+				8926CB31223647C200168538 /* 2.png */,
+				8926CB33223647C200168538 /* 3.png */,
+				8926CB32223647C200168538 /* 4.png */,
 			);
 			path = Practice_Scroll;
 			sourceTree = "<group>";
@@ -75,11 +112,15 @@
 		8960400022238C1400E7BB3A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				894662242251FCD700DCF0B8 /* puts */,
 				8960400122238CE500E7BB3A /* SmallScrollTestViewController.swift */,
 				89547EED2223DBB800143E1B /* CustomPageScrollViewController.swift */,
 				8955B6412224F16F002310D1 /* SHTestViewController.swift */,
 				8955B63D2224EF5E002310D1 /* ContentViewController.swift */,
 				8955B63F2224F04D002310D1 /* SecondContentViewController.swift */,
+				8926CB2F223644A100168538 /* TETestViewController.swift */,
+				89DD2E71223735250052A4BA /* ScrollInScrollViewController.swift */,
+				8946621E2251E45E00DCF0B8 /* EmptyViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -144,7 +185,11 @@
 			files = (
 				89603FF922238C0100E7BB3A /* LaunchScreen.storyboard in Resources */,
 				89603FF622238C0100E7BB3A /* Assets.xcassets in Resources */,
+				8926CB35223647C300168538 /* 2.png in Resources */,
+				8926CB37223647C300168538 /* 3.png in Resources */,
+				8926CB36223647C300168538 /* 4.png in Resources */,
 				89603FF422238C0100E7BB3A /* Main.storyboard in Resources */,
+				8926CB38223647C300168538 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,9 +201,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8955B63E2224EF5E002310D1 /* ContentViewController.swift in Sources */,
+				8926CB30223644A100168538 /* TETestViewController.swift in Sources */,
+				8946621B2251B01600DCF0B8 /* PutsTestViewController.swift in Sources */,
+				894662232251EE1800DCF0B8 /* VC2ViewController.swift in Sources */,
 				8955B6402224F04D002310D1 /* SecondContentViewController.swift in Sources */,
+				8946621F2251E45E00DCF0B8 /* EmptyViewController.swift in Sources */,
 				89603FEF22238C0100E7BB3A /* AppDelegate.swift in Sources */,
 				8955B6422224F16F002310D1 /* SHTestViewController.swift in Sources */,
+				894662212251EE0C00DCF0B8 /* VC1ViewController.swift in Sources */,
+				89DD2E72223735250052A4BA /* ScrollInScrollViewController.swift in Sources */,
+				8946621D2251D43800DCF0B8 /* PutsTestInnerViewController.swift in Sources */,
 				89547EEE2223DBB800143E1B /* CustomPageScrollViewController.swift in Sources */,
 				8960400222238CE500E7BB3A /* SmallScrollTestViewController.swift in Sources */,
 			);
